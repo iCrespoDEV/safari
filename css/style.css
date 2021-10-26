@@ -293,6 +293,13 @@ a {
   padding: 0 10px;
 }
 
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+}
+
 /*----------------HEADER------------------*/
 
 .header {
@@ -404,4 +411,21 @@ a {
 
 /*----------------travel-info------------------*/
 
+.travel-info {
+  background-image: url(../images/travel-info-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 30px 0 50px;
+}
 
+.travel-info__title {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.travel-info__items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 54px 67px;
+}
