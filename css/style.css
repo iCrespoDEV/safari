@@ -498,3 +498,14 @@ a {
   margin-bottom: 15px;
 }
 
+/*----------------Map------------------*/
+
+.map{
+  padding-bottom: 100px;
+}
+
+.map__title{
+  margin-bottom: 46px;
+}
+
+/*----------------Map------------------*/
