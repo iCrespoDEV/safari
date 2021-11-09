@@ -567,3 +567,9 @@ a {
   line-height: 19px;
   text-decoration: underline;
 }
+
+.gallery__item-inner{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 32px;
+}
