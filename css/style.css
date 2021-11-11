@@ -587,6 +587,9 @@ a {
 .tour__box{
   column-count: 2;
   column-gap: 46px;
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 50px;
+  margin-bottom: 44px;
 }
 
 .tour__text{
@@ -595,4 +598,27 @@ a {
 
 .tour__text span{
   font-weight: 700;
+}
+
+.tour__info{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 70px;
+}
+
+.tour__info-item{
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 58px;
+  text-align: center;
+  color: #886239;
+  line-height: 60px;
+}
+
+.tour__info-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1f1e1e;
+  line-height: 25px;
 }
