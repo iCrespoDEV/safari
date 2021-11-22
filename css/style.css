@@ -667,3 +667,28 @@ a {
   resize: none;
   margin-bottom: 67px;
 }
+
+.booking__btn{
+  background: #886239;
+  border-radius: 30px;
+  border: none;
+  padding: 19px 65px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.booking__label{
+  font-size: 16px;
+  line-height: 130%;
+  text-decoration: underline;
+}
+
+.booking__check{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
