@@ -622,3 +622,48 @@ a {
   color: #1f1e1e;
   line-height: 25px;
 }
+
+/*----------------Booking------------------*/
+
+.booking{
+  background: #EAEAEA;
+  padding: 75px 0;
+}
+
+.booking__title{
+  margin-bottom: 43px;
+}
+
+.booking__form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.booking__input{
+  width: 256px;
+  height: 44px;
+  border: 1px solid #D9D9DE;
+  padding: 11px 14px 12px;
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+
+.booking__input::placeholder,
+.booking__area::placeholder{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #c4c4c4;
+}
+
+.booking__area{
+  width: 100%;
+  padding: 14px;
+  height: 112px;
+  border: 1px solid #D9D9DE;
+  resize: none;
+  margin-bottom: 67px;
+}
